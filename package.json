@@ -12,7 +12,7 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": ["unused", "dead-code", "static-analysis", "code-quality", "cleanup", "interactive"],
-  "author": "",
+  "author": "esmiraldo",
   "license": "MIT",
   "dependencies": {
     "@babel/parser": "^7.23.0",

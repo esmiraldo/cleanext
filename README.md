@@ -1,7 +1,7 @@
 # CleanExt - Advanced Code Cleanup Tool
 
 An advanced tool to detect and clean unimported components, files, functions, and unused npm packages in your JavaScript/TypeScript project.
-
+[![npm version](https://badge.fury.io/js/cleanext.svg)](https://www.npmjs.com/package/cleanext)
 ## Features
 
 - 🔍 Detects unused exports (functions, components, variables)

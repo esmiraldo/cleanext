@@ -18,35 +18,32 @@ An advanced tool to detect and clean unimported components, files, functions, an
 
 ## Installation
 
-\`\`\`bash
 # Install globally
 npm install -g cleanext
 
 # Or use without installation
 npx cleanext
-\`\`\`
+
 
 ## Usage
 
 ### Basic Usage
 
-\`\`\`bash
 # Scan the current directory
 cleanext
 
 # Scan a specific directory
 cleanext ./src
-\`\`\`
+
 
 ### Interactive Mode
 
-\`\`\`bash
 # Launch the fully interactive UI
 cleanext --fully-interactive
 
 # Or use the short flag
 cleanext -fi
-\`\`\`
+
 
 The interactive UI provides:
 - A user-friendly menu system
@@ -57,7 +54,6 @@ The interactive UI provides:
 
 ### Advanced Options
 
-\`\`\`bash
 # Ignore specific patterns
 cleanext --ignore "**/*.stories.tsx" "**/*.test.js"
 
@@ -78,11 +74,11 @@ cleanext --json
 
 # Save results to a file
 cleanext --output results.json
-\`\`\`
+
 
 ### Running Without npm Installation
 
-\`\`\`bash
+
 # Clone the repository
 git clone https://github.com/esmiraldo/cleanext.git
 cd cleanext
@@ -98,7 +94,7 @@ node dist/cli.js ./your-project-directory
 
 # Or run in interactive mode
 node dist/cli.js --fully-interactive
-\`\`\`
+
 
 ## How It Works
 
